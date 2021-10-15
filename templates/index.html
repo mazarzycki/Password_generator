@@ -1,0 +1,16 @@
+ {% extends 'base.html' %}
+
+{% block head %}
+<title>Password Generator</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h3 style="text-align: center">Generate password</h3>
+    <form method="get" action="/pass/">
+            <button type="submit" name="Click"> Click </button> 
+    </form>
+    <p id='password'>{{ show_password }}</p>
+    
+</div>
+{% endblock %}

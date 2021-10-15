@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(83, 197, 152);
+}
+
+form, p {
+    text-align: center;
+}
+
+#password {
+    font-size:x-large;  
+}
